@@ -531,7 +531,7 @@ with the following properties:
 ### Statusline indicator
 
 ```vim
-echo nvim_treesitter#statusline(90)  " 90 can be any length
+echo nvim_treesitter#statusline({"indicator_size": 90})  " 90 can be any length
 module->expression_statement->call->identifier
 ```
 
